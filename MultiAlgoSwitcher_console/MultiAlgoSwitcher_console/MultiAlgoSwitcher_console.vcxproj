@@ -23,7 +23,7 @@
     <ProjectGuid>{7F434EB3-63E5-4421-A44F-09747ED697CB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MultiAlgoSwitcher_console</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
