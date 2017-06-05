@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\json">
+      <UniqueIdentifier>{bf737cb5-831f-4807-aa43-ef8619409e92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\json\json.h">
+      <Filter>헤더 파일\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json-forwards.h">
+      <Filter>헤더 파일\json</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
